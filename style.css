@@ -54,7 +54,7 @@ div img#biggerImg, #bigImg {
     display: block;
 }   
 
-th {
+th, #tableTitle {
     cursor: pointer;
 }
 
