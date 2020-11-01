@@ -62,8 +62,8 @@ button#toggleListButton {
     position: absolute;
     top: 160px;
     left: 30px;  
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-image: url("imgs/hide-icon.jpg");
     background-size: contain;
 
