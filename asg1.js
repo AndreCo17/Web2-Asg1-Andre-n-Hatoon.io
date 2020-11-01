@@ -131,6 +131,8 @@
             }
 
             //changes the content of the element
+            title.value = p.ImageFileName;
+            title.id = "tableTitle";
             title.textContent = p.Title;
             yow.innerHTML = p.YearOfWork + "<br>";
 
@@ -142,6 +144,12 @@
             row.appendChild(yow);
 
             //handles the "click" by the user and expand image
+            //clickable title
+            title.addEventListener("click", function(e) {
+                largeImg(e);
+                largeImgInfo(e, paintingsData);
+            });
+            //clickable small image
             img.addEventListener('click', function (e) {
 
                 largeImg(e);
